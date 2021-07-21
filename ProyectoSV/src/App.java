@@ -11,9 +11,9 @@ public class App {
         TecladoRead tr=new TecladoRead();
         //objSP.calcularFuncionExponecial();
         int numero=tr.read(0, "Indroducir un numero:");
-        /*System.out.println("Factorial iterativo: "+objER.factorialBig(numero)); 
-        System.out.println("Factorial Recursivo: "+objER.factorialBigRecur(numero)); */
-        long ti=System.currentTimeMillis();
+        /*Sy stem.out.println("Factorial iterativo: "+objER.factorialBig(numero)); 
+        System.ou }t.println("Factorial Recursivo: "+objER.factorialBigRecur(numero)); */
+        long ti  =System.currentTimeMillis();
         System.out.println("Fibonaci iterativo: "+objER.fibonaci(numero)); 
         long tf=System.currentTimeMillis();
         System.out.println("Fibonaci recursivo: "+ (tf-ti)); 
@@ -23,9 +23,6 @@ public class App {
         long tf=System.currentTimeMillis();
         System.out.println("Fibonaci recursivo: "+ (tf-ti)); 
 
+    }    
     }
-}
-        
-    }
-}
 
